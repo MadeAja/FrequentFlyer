@@ -1,0 +1,16 @@
+name: FrequentFlyer-v1.4-Premium
+main: flayer\Main
+api: [3.0.0, 3.0.1, 4.0.0]
+version: 1.0
+author: BaliGamerz
+
+commands:
+  ff:
+    description: §o§bMemberikan sayap
+    permission: ff.item
+    usage: /ff
+    
+permissions:
+  ff.item:
+    default: op
+    description: §o§bMemberikan sayap
